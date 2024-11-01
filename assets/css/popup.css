@@ -1,0 +1,100 @@
+/*STYLES FOR CSS POPUP*/
+#blanket {
+	background-color: #111;
+	opacity: 0.65;
+ *background:none;
+	position: fixed;
+	z-index: 9001;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+#popUpDiv {
+	position: fixed;
+	background: url(pop-back.jpg) no-repeat;
+	z-index: 9002;
+	background-color: #EDEDED;
+	width: 800px;
+	border: 7px solid rgba(255, 255, 255, 1);
+}
+#profilepopUpDiv {
+	position: fixed;
+	background: url(pop-back.jpg) no-repeat;
+	z-index: 9002;
+	background-color: #EDEDED;
+	width: 800px;
+	border: 7px solid rgba(255, 255, 255, 1);
+}
+#popup-heading {
+	padding: 7px;
+	background-color: #5D76AD;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	height: 30px;
+	margin-top: 0px;
+}
+.viewbox {
+	background-color: #fff;
+	color: #FF4900;
+	padding: 40px;
+	font-size: 22px;
+	font-family: fantasy;
+	box-shadow: 0px 1px 10px 1px #B8B5B5;
+	border: 2px dashed #E4E4E4;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+.viewbox:hover {
+	cursor: pointer;
+	background-color: #FF4900;
+	color: #fff;
+}
+.popup {
+	border-radius: 10px;
+    position:absolute;
+    z-index: 9002;
+    border: 5px solid #E74C3C;
+    display: block;
+    width: 550px;
+    top: 25% ;
+    left: 1% ;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.close {
+	color: #fff;
+	font-size: 25px;
+	float: right;
+	padding: 10px;
+	background-color:#E74C3C;
+	border-radius: 0px 0px 0px 25px;
+	margin-top: -20px;
+	margin-bottom: 3px;
+	margin-right: -20px;
+}
+.post_images_popup {
+	border-radius: 10px;
+    position:absolute;
+    z-index: 9002;
+    border: 5px solid #E74C3C;
+    display: block;
+    width: 550px;
+    top: 5% !important;
+    left: 1% !important;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.full_page_popup {
+	border-radius: 10px;
+    position:absolute;
+    z-index: 9002;
+    border: 5px solid #E74C3C;
+    display: block;
+    width: 550px;
+    top: 5% !important;
+    left: 1% !important;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
